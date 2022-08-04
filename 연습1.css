@@ -1,0 +1,38 @@
+.container{
+  width: 600px;
+  display: block;
+
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+.invalid-box{
+  background-color: crimson;
+  color: white;
+  width: 100px;
+}
+
+.invalid-box>p{
+  margin-left: 40px;
+}
+.box>hr{
+  margin-left: 40px;
+  
+}
+
+.signin-form{
+  border: 2ch solid lightgray;
+  margin-top: 20px;
+}
+
+.form-container{
+
+
+
+
+}
+
+
+
+.inp
