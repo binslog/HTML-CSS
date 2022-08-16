@@ -32,13 +32,19 @@
 
 #--------------------------------------------------
 #5
+# num = int(input())
+
 # def LOT():
+#     arr = []
 #     for i in range(1,6):
-#         print(i,end='')
-#
-# LOT()
-# LOT()
-# LOT()
+#         arr.append(i)
+#     return arr
+        
+# A = LOT()
+
+# for i in range(num):
+#     print(*A,sep='')
+
 
 
 #-----------------------------------
@@ -89,24 +95,26 @@
 
 #------------------------------------------
 #9.
-# arr = ['A','B','C']
-#
-# def main():
-#     num = int(input())
-#     return num
-#
-# num = main()
-#
-# def KFC():
-#     for i in range(3):
-#         print(arr[i],end='')
-#
-#
-# KFC()
-# KFC()
-# KFC()
-#
-# # for i in range()
+arr = ['A','B','C']
+
+def main():
+    num = int(input())
+    return num
+
+num = main()
+
+def KFC(arr):
+    arr2 = []
+    for i in range(3):
+        arr2.append(arr[i])
+    return arr2
+
+result = KFC(arr)
+
+for i in range(num):
+    print(*result,sep='')
+
+# for i in range()
 
 #----------------------------------------
 #10

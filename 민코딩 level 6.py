@@ -94,28 +94,30 @@
 #---------------------------------------------------------
 # 12
 # char = 'flag', 'a', 'b', 'c'
-#
+
 # def input_func() :
 #     a,b,c = map(str,(input().split()))
 #     return a,b,c
-#
+
 # a, b, c = input_func()
-#
+
 # def process(a,b,c) :
 #     if a == 'A' and b == 'B'and c == 'C' :
 #         flag = 1
+#     else:
+#         flag = 0
 #     return flag
-#
+
 # call_process = process(a,b,c)
 # # print(call_process)
-#
-#
+
+
 # def output_func(call_process):
 #     if call_process == 1:
 #         print("ABC를찾았다")
 #     else:
 #         print("못찾았다")
-#
+
 # output_func(call_process)
 
 #----------------------------------------------------------------------------
